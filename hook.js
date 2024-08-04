@@ -2157,7 +2157,7 @@ if (typeof JSON !== "object") {
 //	- Added support for 2 smart TV OSes. They lack browsers but do have WebViews for use by HTML apps. 
 //		- One variable for Samsung Tizen TVs, plus DetectTizenTV()
 //		- One variable for LG WebOS TVs, plus DetectWebOSTV()
-//	- Updated DetectTizen(). Now tests for â€œmobileâ€ to disambiguate from Samsung Smart TVs
+//	- Updated DetectTizen(). Now tests for “mobile” to disambiguate from Samsung Smart TVs
 //	- Removed variables for obsolete devices: deviceHtcFlyer, deviceXoom.
 //	- Updated DetectAndroid(). No longer has a special test case for the HTC Flyer tablet. 
 //	- Updated DetectAndroidPhone(). 
@@ -11749,7 +11749,7 @@ beef.net = {
     response: function () {
         this.status_code = null;        // 500, 404, 200, 302
         this.status_text = null;        // success, timeout, error, ...
-        this.response_body = null;      // "<html>â€¦." if not a cross-origin request
+        this.response_body = null;      // "<html>…." if not a cross-origin request
         this.port_status = null;        // tcp port is open, closed or not http
         this.was_cross_domain = null;   // true or false
         this.was_timedout = null;       // the user specified timeout was reached
@@ -14105,4 +14105,5 @@ beef.regCmp("beef.are");
   * @function setTimeout 
   */
 setTimeout(beef_init, 1000);
+
 
